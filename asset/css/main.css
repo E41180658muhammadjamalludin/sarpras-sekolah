@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'arial';}html,body{height: 100%;} 
+body{background:url('../image/fresh_snow.png');}.clear-fix:after{display: table;clear: both;
+content: '';}#header{width: 100%;background:linear-gradient(to bottom,#2AE12E,#167409);
+padding: 1% 0;height: 13%;position: fixed;z-index: 1;border-bottom: 3px solid #FFFC00;}
+#logo{width: 20%;}#logo img{width: 90%;padding: 2.5% 0 2.5% 1%;display: block;margin:0 auto;}
+.content-kiri{width: 20%;height: 87%;position: fixed;top: 13%;overflow-y: scroll;
+background:url('../image/shattered-island.gif');}.content-kiri #menu ul li{list-style: none;
+font-size: 16px;margin: 3px 10px 3px 15px;opacity: 0.7;line-height: 35px;left: 0;bottom: 0;}
+.content-kiri #menu ul li:nth-child(1){margin-top:30px;}.content-kiri #menu ul li a{color: white;
+margin:5px;font-weight:bolder;text-decoration: none;text-transform: capitalize;}
+.content-kiri #menu ul li img{display: inline-block;width: 20px;margin-bottom:-3px;
+height: 20px;}.content-kiri #menu ul li:hover{opacity: 1;background-color: #424f5a;}
+.content-kanan{width: 76%;margin: 8.9% auto;margin-right: 2%;}.content-kanan{float: right;}
+#msg p{padding: 10px;width: 100%;text-align: center;font-size: 24px;font-weight: bolder;color: white;
+margin-bottom: 10px;}#msg .warn{background: red;}#msg .succes{background: #09E9E6;}
+#sapa h1{font-family: 'Lobster-Regular';padding-bottom: 5px;}#sapa{font-size: 20px;
+font-family: 'Lobster-Regular';width: 95%;margin: 2.5% 0 2.5% 3%;border: 3px solid orange;
+padding: 10px;border-radius: 10px;}.content-kanan .menu{font-weight: bolder;margin: 10px 5px 20px 0px;
+display: block;text-align: center;text-decoration: none;border-radius: 5px;width: 130px;
+padding: 5px;color: white;float: left;background-color: orange;}.content-kanan table{margin:0 auto;
+clear:both;box-shadow: 5px 5px 5px 5px;}	.content-kanan table th{font-size: 14px;font-weight: bolder;
+color:white;background-color: blue;height: 35px;padding: 2px 6px;}.content-kanan table tr td{font-size: 14px;
+padding: 0px 3px;height: 30px;}.content-kanan table td a{text-decoration: none;border-radius: 5px;
+display: inline-block;margin: 5px;padding: 5px 10px;font-size: 15px;height: 30px;color: white;
+font-weight: bolder;line-height: 20px;background-color: rgb(20, 217, 230);}
+.content-kanan table td a:last-child{margin-left: -2px;padding: 5px;background-color: red;}
+.content-kanan table tr:nth-child(odd){background-color: white;}
+.content-kanan table tr:nth-child(even){background-color: #e6e9eb;}.content-kanan input[type="text"],
+.content-kanan input[type="date"],.content-kanan input[type="number"],.content-kanan select,
+.content-kanan textarea{width: 100%;height:33px;font-weight: bold;}.content-kanan input[type="submit"],
+.content-kanan input[type="reset"]{width: 100px;height: 30px;margin: 5px 3px;}.crud tr td:first-child{
+background:#FB5900;padding: 1px 15px 1px 8px;color:white;font-weight: bold;}.crud tr td:last-child{font-weight:100;width: 300px;}
+.crud tr:last-child td{background-color: #e6e9eb;}
